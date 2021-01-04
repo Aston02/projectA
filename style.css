@@ -1,0 +1,140 @@
+nav {
+    box-shadow: 0 5px 5px rgba(58, 180, 0, 0.3);
+}
+
+#nav img {
+    width: 60px;
+    margin-left: 15px;
+}
+
+#navbarNavDropdown li a {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+
+}
+
+.navbar-toggler-icon {
+    background-color: #3ab400;
+}
+
+#right img {
+    display: none;
+    width: 15px;
+}
+
+#banner-text {
+    position: absolute;
+    margin: 10px 0;   
+    text-align: center;
+}
+
+#banner-text h1 {
+    font-family: 'Lora', serif;
+    color: #3ab400;
+    font-size: 1.8em;
+    font-weight: 900;
+}
+
+#banner-text p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.static-image {
+    display: none;
+    height: 308px;
+    width: 228px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    margin-right: 40px;
+    z-index: -1;
+    opacity: 0.8;
+    
+}
+
+.btn-primary {
+    color: #3ab400;
+    background-color: #fff;
+    border: solid 1px #3ab400;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #3ab400;
+    border: solid 1px #3ab400;
+}
+
+.carousel-inner {
+    display: none;
+}
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 1024px) {
+    nav {
+        
+        box-shadow: 0 5px 5px rgba(58, 180, 0, 0.3);
+    }
+
+    #navbarNavDropdown ul {
+        position: absolute;
+        left: 40%;
+        
+        
+    }
+
+    #navbarNavDropdown ul li a {
+        padding: 0 15px;
+    }
+
+    #right img {
+        display: inline-block;
+        position: relative;
+        right: -500px;
+    }
+
+    #banner-text {
+        position: relative;
+        margin: 100px 0;  
+        
+        left: 5%; 
+        text-align: left;
+    }
+    
+    #banner-text h1 {
+        font-family: 'Lora', serif;
+        color: #3ab400;
+        font-size: 4em;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+    
+    #banner-text p {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 1.5em;
+    }
+    
+    .carousel-inner {
+        display: block;
+        height: 560px;
+        width: 415px;
+        position: absolute;
+        top: 5%;
+        margin-right: 40px;
+        z-index: -1;
+    }
+    
+    .static-image {
+        display: none;
+    }
+
+    .btn-primary {
+        margin: 0 20px 0 0;
+        padding: 10px 20px;
+        font: 1em 'Raleway';
+    }
+}
